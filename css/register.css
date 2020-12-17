@@ -1,0 +1,55 @@
+#register-screen {
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#register-screen #register-screen-content {
+  background-color: #ffffff;
+  left: 50%;
+  top: 50%;
+  position: absolute;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+  -moz-transform: translate3d(-50%, -50%, 0);
+  transform: translate3d(-50%, -50%, 0);
+}
+
+#register-screen #register-screen-content #logo {
+  margin: 40px;
+}
+
+#register-screen #register-screen-content #logo h1 {
+  text-align: center;
+  font-size: 30px;
+}
+
+#register-screen #register-screen-content #register-form {
+  margin: 32px;
+}
+
+#register-screen #register-screen-content #register-form #name-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+#register-screen #register-screen-content #register-form #form-footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+#register-screen #register-screen-content #register-form #form-footer #already-have-account-button {
+  cursor: pointer;
+  color: blue;
+}
+
+#register-screen #register-screen-content #register-form #form-footer #already-have-account-button:hover {
+  text-decoration: underline;
+}
+
+#register-screen #register-screen-content #register-form #btn_register{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 35%;
+}

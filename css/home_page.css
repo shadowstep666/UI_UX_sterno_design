@@ -1,0 +1,6 @@
+#home-page{
+    height: 100vh;
+}
+#home-page #leftside-bar #navigationMenu {
+    margin-top: 10px;
+}

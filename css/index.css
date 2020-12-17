@@ -1,0 +1,334 @@
+.leftside-bar {
+    margin-left: 10px;
+    height: 100%;
+    width: 25%;
+    background-color: #96b97d;
+    position: absolute;
+}
+
+.navigationMenu {
+    margin-left: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 20px;
+    font-weight: Bold;
+    color: #ffffff;
+}
+
+.navigation-bar-item {
+    margin-top: 15px;
+    cursor: pointer;
+}
+.navigation-bar-item:hover{
+    text-decoration: underline;
+}
+
+.sub-item{
+    margin-top: 5px;
+    margin-left: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.sub-item-child{
+    margin-top: 5px;
+    margin-left: 20px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.main-container{
+    column-count: 2;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.lesson-design{
+    border: solid 1px black;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 24px;
+    width: 350px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #1d42e9;
+    color: #ffffff;
+    
+}
+.sub-item:hover{text-decoration: underline;}
+
+.s-sub-item{
+    margin-top: 5px;
+    margin-left: 15px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.s-sub-item:hover{text-decoration: underline;}
+
+.container{
+    height: 87%;
+}
+
+/* bàn phím steno ảo css */
+
+.rounded-steno{
+    border-radius: 12.5% / 7.5%;
+    border-bottom-right-radius: 50% 30%;
+    border-bottom-left-radius: 50% 30%;
+}
+
+.stenoUpperBank {
+    width: 100%;
+    height: 32%;
+    padding: 0;
+    border: 0;
+    margin: 0.625% 0 0.625% 2%;
+}
+.stenoKeyboard{ 
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 300px;
+}
+
+.stenoLowerBank {
+    width: 100%;
+    height: 32%;
+    padding: 0;
+    border: 0;
+    margin: 0.625% 0 0.625% 2%;
+}
+
+.stenoVowelKeys {
+    width: 100%;
+    height: 32%;
+    padding: 0;
+    border: 0;
+    margin: 0.625% 0 1% 0;
+    display: flex;
+    justify-content: center;
+}
+
+.stenoKey{
+    float: left;
+    width: 8.65%;
+    height: 100%;
+    padding: 0;
+    border: 0;
+    margin: 0 0.5% 0 0.5%;
+    color: #ffffff;
+    background-color: #000000;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+
+.about-us{
+    background-color: #6eff1a;
+    height: 12%;
+    margin-left:26%;
+    margin-top: 8px;
+
+}
+.sorting_asc{
+    margin-left: 10px;
+}
+.rightside {
+    margin-left: 30%;
+    border: 2px solid #ffffff;
+    height: 100%;
+    padding-left: 10px;
+}
+
+.main-contain{
+    margin-left: 5%;
+}
+
+.siteThemeColour {
+    height: 10px;
+    background-color:#96b97d ;
+    width: 800px;
+}
+
+.page-title{
+    margin-top: 3%;
+    font-size: 16px;
+    border: 1px solid rgb(231, 231, 231);
+    height: 75%;
+    overflow-y: scroll;
+}
+
+.image{
+    margin: 3% 0 3% 5%;
+    width: 85%;
+}
+
+.clickableBox{
+    margin-top: 10px;
+    float: left;
+    width: 270px;
+    height: 150px;
+    margin-right: 30px; 
+    border: 2px solid #808080; 
+    padding: 0px 8px 0px 8px;
+    border-radius: 10px;
+}
+.menu-buton-style{
+    background-color: brown;
+}
+
+.next-prev-button{
+    margin-left: 5px;
+    width: 120px;
+    border-radius: 15px;
+    background-color: #1d42e9;
+    color: #ffffff;
+    padding: 10px 10px;
+    font-size: 14px;
+
+}
+.input {
+    border: 2px solid #cccccc;
+    padding: 10px;
+    border-radius: 15px;
+    width: 100%;
+  }
+  
+  .input-wrapper {
+    margin: 10px;
+  }
+  
+  .error-message {
+    color: #f5222d;
+  }
+
+  .button {
+    width: 100%;
+    border-radius: 15px;
+    background-color: #6eff1a;
+    color: #ffffff;
+    padding: 10px 10px;
+    margin-left: 10px;
+    font-size: 20px;
+  }
+
+.icon-login{
+    margin-top: 20px;
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+}
+
+
+.table-wrapper{
+    margin: 10px 70px 70px;
+    box-shadow: 0px 35px 50px rgba( 0, 0, 0, 0.2 );
+}
+
+.fl-table {
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: normal;
+    border: none;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 100%;
+    white-space: nowrap;
+    background-color: white;
+}
+
+.fl-table td, .fl-table th {
+    text-align: center;
+    padding: 8px;
+}
+
+.fl-table td {
+    border-right: 1px solid #f8f8f8;
+    font-size: 20px;
+}
+
+.fl-table thead th {
+    color: #ffffff;
+    background: #4FC3A1;
+}
+
+
+.fl-table thead th:nth-child(odd) {
+    color: #ffffff;
+    background: #324960;
+}
+
+.fl-table tr:nth-child(even) {
+    background: #F8F8F8;
+}
+
+/* Responsive */
+
+@media (max-width: 767px) {
+    .fl-table {
+        display: block;
+        width: 100%;
+    }
+    .table-wrapper:before{
+        content: "Scroll horizontally >";
+        display: block;
+        text-align: right;
+        font-size: 11px;
+        color: white;
+        padding: 0 0 10px;
+    }
+    .fl-table thead, .fl-table tbody, .fl-table thead th {
+        display: block;
+    }
+    .fl-table thead th:last-child{
+        border-bottom: none;
+    }
+    .fl-table thead {
+        float: left;
+    }
+    .fl-table tbody {
+        width: auto;
+        position: relative;
+        overflow-x: auto;
+    }
+    .fl-table td, .fl-table th {
+        padding: 20px .625em .625em .625em;
+        height: 60px;
+        vertical-align: middle;
+        box-sizing: border-box;
+        overflow-x: hidden;
+        overflow-y: auto;
+        width: 120px;
+        font-size: 13px;
+        text-overflow: ellipsis;
+    }
+    .fl-table thead th {
+        text-align: left;
+        border-bottom: 1px solid #f7f7f9;
+    }
+    .fl-table tbody tr {
+        display: table-cell;
+    }
+    .fl-table tbody tr:nth-child(odd) {
+        background: none;
+    }
+    .fl-table tr:nth-child(even) {
+        background: transparent;
+    }
+    .fl-table tr td:nth-child(odd) {
+        background: #F8F8F8;
+        border-right: 1px solid #E6E4E4;
+    }
+    .fl-table tr td:nth-child(even) {
+        border-right: 1px solid #E6E4E4;
+    }
+    .fl-table tbody td {
+        display: block;
+        text-align: center;
+    }
+}

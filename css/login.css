@@ -1,0 +1,51 @@
+#login-screen {
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  justify-content:space-between;
+  background-color: blue;
+
+}
+
+#login-screen #login-screen-content {
+  background-color: #ffffff;
+  left: 50%;
+  top: 50%;
+  position: absolute;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+  -moz-transform: translate3d(-50%, -50%, 0);
+  transform: translate3d(-50%, -50%, 0);
+}
+
+#login-screen #login-screen-content #logo {
+  margin: 20px;
+}
+
+#login-screen #login-screen-content #logo h2 {
+  text-align: center;
+  font-size: 30px;
+}
+
+#login-screen #login-screen-content #login-form {
+  margin: 32px;
+}
+
+#login-screen #login-screen-content #login-form #form-footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+#login-screen #login-screen-content #login-form #form-footer #create-account-button {
+  cursor: pointer;
+  color: blue;
+}
+
+#login-screen #login-screen-content #login-form #form-footer #create-account-button:hover {
+  text-decoration: underline;
+  
+}
+
+#login-other-icon{
+  text-align: center;
+}
