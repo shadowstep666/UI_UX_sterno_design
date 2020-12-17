@@ -43,7 +43,9 @@ const components ={
     <div class="about-us"> About us </div>
     `,
 
-  lesson_basic_page2:` <div id="lesson-basic-page2">
+  lesson_basic_page2:
+  ` 
+  <div id="lesson-basic-page2">
   <div class="container">
       <div class= "leftside-bar">
           <div class="navigationMenu">
@@ -133,7 +135,8 @@ const components ={
   </div>
   </div>
 <div class="about-us"> About us </div>
-</div>` ,
+</div>
+` ,
 
   lesson_basic_page3:` 
   <div id="lesson-basic-page3">
