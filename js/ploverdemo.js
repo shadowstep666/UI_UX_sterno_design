@@ -108,7 +108,7 @@ function colorCode(keys) {
 	// Initial S
 	if ('S-' in stenoKeys) {
 		$('#stenoKeyS-1').css('background-color', '#00ff00');
-		$('#stenoKeyS-2').css('background-color', '#00ff00');
+		
 	}
 
 	// Final S
@@ -119,6 +119,7 @@ function colorCode(keys) {
 	// Initial T
 	if ('T-' in stenoKeys) {
 		$('#stenoKeyT-').css('background-color', '#8000ff');
+		$('#stenoKeyT-1').css('background-color', '#8000ff');
 	}
 
 	// Final T
@@ -269,7 +270,6 @@ function colorCode(keys) {
 	// Initial V
 	if ('S-' in stenoKeys && 'R-' in stenoKeys) {
 		$('#stenoKeyS-1').css('background-color', '#808080');
-		$('#stenoKeyS-2').css('background-color', '#808080');
 		$('#stenoKeyR-').css('background-color', '#808080');
 	}
 
@@ -333,7 +333,6 @@ function colorCode(keys) {
 	// Initial J
 	if ('S-' in stenoKeys && 'K-' in stenoKeys && 'W-' in stenoKeys && 'R-' in stenoKeys) {
 		$('#stenoKeyS-1').css('background-color', '#000080');
-		$('#stenoKeyS-2').css('background-color', '#000080');
 		$('#stenoKeyK-').css('background-color', '#000080');
 		$('#stenoKeyW-').css('background-color', '#000080');
 		$('#stenoKeyR-').css('background-color', '#000080');
@@ -352,7 +351,6 @@ function colorCode(keys) {
 	// Final J
 	if ('S-' in stenoKeys && 'T-' in stenoKeys && 'K-' in stenoKeys && 'P-' in stenoKeys && 'W-' in stenoKeys) {
 		$('#stenoKeyS-1').css('background-color', '#ff0000');
-		$('#stenoKeyS-2').css('background-color', '#ff0000');
 		$('#stenoKeyT-').css('background-color', '#ff0000');
 		$('#stenoKeyK-').css('background-color', '#ff0000');
 		$('#stenoKeyP-').css('background-color', '#ff0000');

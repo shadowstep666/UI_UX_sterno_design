@@ -26,7 +26,7 @@ const components ={
             </div>
         </div>
         <div class="rightside">
-            <h1>Bài học nâng cao</h2>
+            <h1>Bài học cơ bản</h1>
             <div class="siteThemeColour" ></div>
             <div class="page-container">
                 <div class='main-container'>
@@ -1229,47 +1229,47 @@ lesson_basic_first_sound_rule:
 lesson_advance_page:
   `
   <div id="lesson-advance-page">
-  <div class="container">
-      <div class= "leftside-bar">
-          <div class="navigationMenu">
-                      <div class="navigation-bar-item" id="home-page-button">Trang chủ</div>
-      
-                      <div  class="navigation-bar-item" id="lesson-basic-button">Bài học cơ bản</div>
-      
-                      <div class="navigation-bar-item" id="lesson-advanced-button">Bài học nâng cao</div>
-                          <div class="sub-item" id="lesson-advance-1">Bài 1</div>
-                          <div class="sub-item" id="lesson-advance-2">Bài 2</div>
-                          <div class="sub-item" id="lesson-advance-3">Bài 3 </div>
-                          <div class="sub-item" id="lesson-advance-4">Bài 4 </div>
-                          <div class="sub-item" id="lesson-advance-5">Bài 5 </div>
-
-                      <div class="navigation-bar-item" id="practice-button">Thực hành</div>
-      
-                      <div class="navigation-bar-item" id="game-button">Trò chơi</div>
-      
-                      <div class="navigation-bar-item" id="contract-button">Liên hệ </div>
-      
-                      <div class="navigation-bar-item" id="acoount-button">Tài khoản</div>
-          </div>
-      </div>
-      <div class="rightside">
-          <h1>Bài học nâng cao</h2>
-          <div class="siteThemeColour" ></div>
-          <div class="page-container">
-              <div class='main-container'>
-                <div class ="lesson-design" id="lesson-advance-1"> Bài 1 </div>
-                <div class ="lesson-design" id="lesson-advance-2"> Bài 2 </div>
-                <div class ="lesson-design" id="lesson-advance-3"> Bài 3 </div>
-                <div class ="lesson-design" id="lesson-advance-4"> Bài 4 </div>
-                <div class ="lesson-design" id="lesson-advance-5"> Bài 5 </div>
-                <div class ="lesson-design" id="lesson-advance-6"> Bài 6 </div>
-              </div>
-          </div>
-      
-  </div>
-  </div>
-  <div class="about-us"> About us </div>
-  </div>
+            <div class="container">
+                <div class= "leftside-bar">
+                    <div class="navigationMenu">
+                                <div class="navigation-bar-item" id="home-page-button">Trang chủ</div>
+                
+                                <div  class="navigation-bar-item" id="lesson-basic-button">Bài học cơ bản</div>
+                
+                                <div class="navigation-bar-item" id="lesson-advanced-button">Bài học nâng cao</div>
+                                    <div class="sub-item" id="lesson-advance-1">Bài 1 Học gõ phím</div>
+                                    <div class="sub-item" id="lesson-advance-2">Bài 2 Học gõ âm</div>
+                                    <div class="sub-item" id="lesson-advance-3">Bài 3 Học gõ từ </div>
+                                    <div class="sub-item" id="lesson-advance-4">Bài 4 Học gõ câu</div>
+                                    <div class="sub-item" id="lesson-advance-5">Bài 5 Học gõ số và các dấu</div>
+                                    <div class="sub-item" id="lesson-advance-6"> Bài 6 Học gõ tự do</div>
+                                <div class="navigation-bar-item" id="practice-button">Thực hành</div>
+                
+                                <div class="navigation-bar-item" id="game-button">Trò chơi</div>
+                
+                                <div class="navigation-bar-item" id="contract-button">Liên hệ </div>
+                
+                                <div class="navigation-bar-item" id="acoount-button">Tài khoản</div>
+                    </div>
+                </div>
+                <div class="rightside">
+                    <h1>Bài học nâng cao</h2>
+                    <div class="siteThemeColour" ></div>
+                    <div class="page-container">
+                        <div class='main-container'>
+                          <div class ="lesson-design" id="lesson-advance-1"> Bài 1 Học gõ phím</div>
+                          <div class ="lesson-design" id="lesson-advance-2"> Bài 2 Học gõ âm</div>
+                          <div class ="lesson-design" id="lesson-advance-3"> Bài 3 Học gõ từ</div>
+                          <div class ="lesson-design" id="lesson-advance-4"> Bài 4 Học gõ câu</div>
+                          <div class ="lesson-design" id="lesson-advance-5"> Bài 5 Học gõ số và các dấu</div>
+                          <div class ="lesson-design" id="lesson-advance-6"> Bài 6 Học gõ tự do</div>
+                        </div>
+                    </div>
+                
+            </div>
+            </div>
+            <div class="about-us"> About us </div>
+            </div>
   `,
 
   // lesson_advance_page1 html
@@ -1397,7 +1397,8 @@ lesson_advance_page:
         </form>
       </div>
     </div>
-  </div>`,
+  </div>
+  `,
 
     login: `
     <div id='login-screen'>
@@ -1521,157 +1522,157 @@ lesson_advance_page:
     practice_page:
     `
     <div id="practice-page">
-            <div class="container">
-                <div class= "leftside-bar">
-                    <div class="navigationMenu">
-                                <div class="navigation-bar-item" id="home-page-button">Trang chủ</div>
-                
-                                <div  class="navigation-bar-item" id="lesson-basic-button">Bài học cơ bản</div>
-                
-                                <div class="navigation-bar-item" id="lesson-advanced-button">Bài học nâng cao</div>
-          
-                                <div class="navigation-bar-item" id="practice-button">Thực hành</div>
-                
-                                <div class="navigation-bar-item" id="game-button">Trò chơi</div>
-                
-                                <div class="navigation-bar-item" id="contract-button">Liên hệ </div>
-                
-                                <div class="navigation-bar-item" id="acoount-button">Tài khoản</div>
-                    </div>
+    <div class="container">
+        <div class= "leftside-bar">
+            <div class="navigationMenu">
+                        <div class="navigation-bar-item" id="home-page-button">Trang chủ</div>
+        
+                        <div  class="navigation-bar-item" id="lesson-basic-button">Bài học cơ bản</div>
+        
+                        <div class="navigation-bar-item" id="lesson-advanced-button">Bài học nâng cao</div>
+  
+                        <div class="navigation-bar-item" id="practice-button">Thực hành</div>
+        
+                        <div class="navigation-bar-item" id="game-button">Trò chơi</div>
+        
+                        <div class="navigation-bar-item" id="contract-button">Liên hệ </div>
+        
+                        <div class="navigation-bar-item" id="acoount-button">Tài khoản</div>
+            </div>
+        </div>
+        <div class="rightside">
+            <h1>Bài học nâng cao</h2>
+            <div class="siteThemeColour" ></div>
+            <div class="page-container">
+                <div class='main-container'>
+                      <!-- area to show output -->
+            <div id="outputContainer" class="ui-draggable ui-resizable"><h1>Output</h1>
+                <textarea id="output" rows="10" cols="66"></textarea>
+            <div class="ui-resizable-handle ui-resizable-s"></div></div>
+    
+            <!-- area to show the vertical notes-->
+            <div id="verticalNotesContainer" class="ui-draggable ui-resizable"><h1>Vertical Notes</h1>
+                <textarea id="verticalNotes" wrap="off" rows="10" cols="36"></textarea>
+            <div class="ui-resizable-handle ui-resizable-s"></div></div>
+    
+            <!-- STANDARD KEYBOARD (This keyboard is based on the IBM PC Windows 104 keyboard) -->
+            <div id="stdKeyboard" class="ui-draggable ui-resizable">
+                <div class="stdRow">
+                    <div class="stdKey code192" id="stdKeyGraveAccent" style="background-color: rgb(0, 0, 0);"><span class="upper">~</span><span class="lower"></span></div>
+                    <div class="stdKey code49" id="stdKey1" style="background-color: rgb(0, 0, 0);"><span class="upper">!</span><span class="lower">1</span></div>
+                    <div class="stdKey code50" id="stdKey2" style="background-color: rgb(0, 0, 0);"><span class="upper">@</span><span class="lower">2</span></div>
+                    <div class="stdKey code51" id="stdKey3" style="background-color: rgb(0, 0, 0);"><span class="upper">#</span><span class="lower">3</span></div>
+                    <div class="stdKey code52" id="stdKey4" style="background-color: rgb(0, 0, 0);"><span class="upper">$</span><span class="lower">4</span></div>
+                    <div class="stdKey code53" id="stdKey5" style="background-color: rgb(0, 0, 0);"><span class="upper">%</span><span class="lower">5</span></div>
+                    <div class="stdKey code54" id="stdKey6" style="background-color: rgb(0, 0, 0);"><span class="upper">^</span><span class="lower">6</span></div>
+                    <div class="stdKey code55" id="stdKey7" style="background-color: rgb(0, 0, 0);"><span class="upper">&amp;</span><span class="lower">7</span></div>
+                    <div class="stdKey code56" id="stdKey8" style="background-color: rgb(0, 0, 0);"><span class="upper">*</span><span class="lower">8</span></div>
+                    <div class="stdKey code57" id="stdKey9" style="background-color: rgb(0, 0, 0);"><span class="upper">(</span><span class="lower">9</span></div>
+                    <div class="stdKey code48" id="stdKey0" style="background-color: rgb(0, 0, 0);"><span class="upper">)</span><span class="lower">0</span></div>
+                    <div class="stdKey code109 code189" id="stdKeyDash" style="background-color: rgb(0, 0, 0);"><span class="upper">_</span><span class="lower">-</span></div>
+                    <div class="stdKey code107 code187" id="stdKeyEqualSign" style="background-color: rgb(0, 0, 0);"><span class="upper">+</span><span class="lower">=</span></div>
+                    <div class="stdKey code8" id="stdKeyBackspace" style="background-color: rgb(0, 0, 0);">Backspace</div>
                 </div>
-                <div class="rightside">
-                    <h1>Bài học nâng cao</h2>
-                    <div class="siteThemeColour" ></div>
-                    <div class="page-container">
-                        <div class='main-container'>
-                              <!-- area to show output -->
-                    <div id="outputContainer" class="ui-draggable ui-resizable"><h1>Output</h1>
-                        <textarea id="output" rows="10" cols="66"></textarea>
-                    <div class="ui-resizable-handle ui-resizable-s"></div></div>
-            
-                    <!-- area to show the vertical notes-->
-                    <div id="verticalNotesContainer" class="ui-draggable ui-resizable"><h1>Vertical Notes</h1>
-                        <textarea id="verticalNotes" wrap="off" rows="10" cols="36"></textarea>
-                    <div class="ui-resizable-handle ui-resizable-s"></div></div>
-            
-                    <!-- STANDARD KEYBOARD (This keyboard is based on the IBM PC Windows 104 keyboard) -->
-                    <div id="stdKeyboard" class="ui-draggable ui-resizable">
-                        <div class="stdRow">
-                            <div class="stdKey code192" id="stdKeyGraveAccent" style="background-color: rgb(0, 0, 0);"><span class="upper">~</span><span class="lower"></span></div>
-                            <div class="stdKey code49" id="stdKey1" style="background-color: rgb(0, 0, 0);"><span class="upper">!</span><span class="lower">1</span></div>
-                            <div class="stdKey code50" id="stdKey2" style="background-color: rgb(0, 0, 0);"><span class="upper">@</span><span class="lower">2</span></div>
-                            <div class="stdKey code51" id="stdKey3" style="background-color: rgb(0, 0, 0);"><span class="upper">#</span><span class="lower">3</span></div>
-                            <div class="stdKey code52" id="stdKey4" style="background-color: rgb(0, 0, 0);"><span class="upper">$</span><span class="lower">4</span></div>
-                            <div class="stdKey code53" id="stdKey5" style="background-color: rgb(0, 0, 0);"><span class="upper">%</span><span class="lower">5</span></div>
-                            <div class="stdKey code54" id="stdKey6" style="background-color: rgb(0, 0, 0);"><span class="upper">^</span><span class="lower">6</span></div>
-                            <div class="stdKey code55" id="stdKey7" style="background-color: rgb(0, 0, 0);"><span class="upper">&amp;</span><span class="lower">7</span></div>
-                            <div class="stdKey code56" id="stdKey8" style="background-color: rgb(0, 0, 0);"><span class="upper">*</span><span class="lower">8</span></div>
-                            <div class="stdKey code57" id="stdKey9" style="background-color: rgb(0, 0, 0);"><span class="upper">(</span><span class="lower">9</span></div>
-                            <div class="stdKey code48" id="stdKey0" style="background-color: rgb(0, 0, 0);"><span class="upper">)</span><span class="lower">0</span></div>
-                            <div class="stdKey code109 code189" id="stdKeyDash" style="background-color: rgb(0, 0, 0);"><span class="upper">_</span><span class="lower">-</span></div>
-                            <div class="stdKey code107 code187" id="stdKeyEqualSign" style="background-color: rgb(0, 0, 0);"><span class="upper">+</span><span class="lower">=</span></div>
-                            <div class="stdKey code8" id="stdKeyBackspace" style="background-color: rgb(0, 0, 0);">Backspace</div>
+                <div class="stdRow">
+                    <div class="stdKey code9" id="stdKeyTab" style="background-color: rgb(0, 0, 0);">Tab</div>
+                    <div class="stdKey code81" id="stdKeyQ" style="background-color: rgb(0, 0, 0);">Q</div>
+                    <div class="stdKey code87" id="stdKeyW" style="background-color: rgb(0, 0, 0);">W</div>
+                    <div class="stdKey code69" id="stdKeyE" style="background-color: rgb(0, 0, 0);">E</div>
+                    <div class="stdKey code82" id="stdKeyR" style="background-color: rgb(0, 0, 0);">R</div>
+                    <div class="stdKey code84" id="stdKeyT" style="background-color: rgb(0, 0, 0);">T</div>
+                    <div class="stdKey code89" id="stdKeyY" style="background-color: rgb(0, 0, 0);">Y</div>
+                    <div class="stdKey code85" id="stdKeyU" style="background-color: rgb(0, 0, 0);">U</div>
+                    <div class="stdKey code73" id="stdKeyI" style="background-color: rgb(0, 0, 0);">I</div>
+                    <div class="stdKey code79" id="stdKeyO" style="background-color: rgb(0, 0, 0);">O</div>
+                    <div class="stdKey code80" id="stdKeyP" style="background-color: rgb(0, 0, 0);">P</div>
+                    <div class="stdKey code219" id="stdKeyOpenBracket" style="background-color: rgb(0, 0, 0);"><span class="upper">{</span><span class="lower">[</span></div>
+                    <div class="stdKey code221" id="stdKeyCloseBracket" style="background-color: rgb(0, 0, 0);"><span class="upper">}</span><span class="lower">]</span></div>
+                    <div class="stdKey code220" id="stdKeyBackslash" style="background-color: rgb(0, 0, 0);"><span class="upper">|</span><span class="lower">\</span></div>
+                </div>
+                <div class="stdRow">
+                    <div class="stdKey code20" id="stdKeyCapsLock" style="background-color: rgb(0, 0, 0);">Caps Lock</div>
+                    <div class="stdKey code65" id="stdKeyA" style="background-color: rgb(0, 0, 0);">A</div>
+                    <div class="stdKey code83" id="stdKeyS" style="background-color: rgb(0, 0, 0);">S</div>
+                    <div class="stdKey code68" id="stdKeyD" style="background-color: rgb(0, 0, 0);">D</div>
+                    <div class="stdKey code70" id="stdKeyF" style="background-color: rgb(0, 0, 0);">F</div>
+                    <div class="stdKey code71" id="stdKeyG" style="background-color: rgb(0, 0, 0);">G</div>
+                    <div class="stdKey code72" id="stdKeyH" style="background-color: rgb(0, 0, 0);">H</div>
+                    <div class="stdKey code74" id="stdKeyJ" style="background-color: rgb(0, 0, 0);">J</div>
+                    <div class="stdKey code75" id="stdKeyK" style="background-color: rgb(0, 0, 0);">K</div>
+                    <div class="stdKey code76" id="stdKeyL" style="background-color: rgb(0, 0, 0);">L</div>
+                    <div class="stdKey code59 code186" id="stdKeySemicolon" style="background-color: rgb(0, 0, 0);"><span class="upper">:</span><span class="lower">;</span></div>
+                    <div class="stdKey code222" id="stdKeySingleQuote" style="background-color: rgb(0, 0, 0);"><span class="upper">"</span><span class="lower">'</span></div>
+                    <div class="stdKey code13" id="stdKeyEnter" style="background-color: rgb(0, 0, 0);">Enter</div>
+                </div>
+                <div class="stdRow">
+                    <div class="stdKey code16" id="stdKeyLeftShift" style="background-color: rgb(0, 0, 0);">Shift</div>
+                    <div class="stdKey code90" id="stdKeyZ" style="background-color: rgb(0, 0, 0);">Z</div>
+                    <div class="stdKey code88" id="stdKeyX" style="background-color: rgb(0, 0, 0);">X</div>
+                    <div class="stdKey code67" id="stdKeyC" style="background-color: rgb(0, 0, 0);">C</div>
+                    <div class="stdKey code86" id="stdKeyV" style="background-color: rgb(0, 0, 0);">V</div>
+                    <div class="stdKey code66" id="stdKeyB" style="background-color: rgb(0, 0, 0);">B</div>
+                    <div class="stdKey code78" id="stdKeyN" style="background-color: rgb(0, 0, 0);">N</div>
+                    <div class="stdKey code77" id="stdKeyM" style="background-color: rgb(0, 0, 0);">M</div>
+                    <div class="stdKey code188" id="stdKeyComma" style="background-color: rgb(0, 0, 0);"><span class="upper">&lt;</span><span class="lower">,</span></div>
+                    <div class="stdKey code190" id="stdKeyPeriod" style="background-color: rgb(0, 0, 0);"><span class="upper">&gt;</span><span class="lower">.</span></div>
+                    <div class="stdKey code191" id="stdKeySlash" style="background-color: rgb(0, 0, 0);"><span class="upper">?</span><span class="lower">/</span></div>
+                    <div class="stdKey code16" id="stdKeyRightShift" style="background-color: rgb(0, 0, 0);">Shift</div>
+                </div>
+                <div class="stdRow">
+                    <div class="stdKey code17" id="stdKeyLeftControl" style="background-color: rgb(0, 0, 0);">Ctrl</div>
+                    <div class="stdKey code91" id="stdKeyLeftWindows" style="background-color: rgb(0, 0, 0);">Win</div>
+                    <div class="stdKey code18" id="stdKeyLeftAlt" style="background-color: rgb(0, 0, 0);">Alt</div>
+                    <div class="stdKey code32" id="stdKeySpace" style="background-color: rgb(0, 0, 0);">Space</div>
+                    <div class="stdKey code18" id="stdKeyRightAlt" style="background-color: rgb(0, 0, 0);">Alt</div>
+                    <div class="stdKey code92" id="stdKeyRightWindow" style="background-color: rgb(0, 0, 0);">Win</div>
+                    <div class="stdKey code93" id="stdKeyMenu" style="background-color: rgb(0, 0, 0);">Menu</div>
+                    <div class="stdKey code17" id="stdKeyRightControl" style="background-color: rgb(0, 0, 0);">Ctrl</div>
+                </div>
+            <div class="ui-resizable-handle ui-resizable-e"></div><div class="ui-resizable-handle ui-resizable-s"></div><div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se" style="z-index: 1001;"></div></div>
+    
+            <!-- STENO KEYBOARD -->
+            <div id="stenoKeyboard" class="ui-draggable ui-resizable">
+                <div class="stenoNumberBar">
+                    <div class="stenoKey numberBar code48 code49 code50 code51 code52 code53 code54 code55 code56 code57" id="stenoKeyNumberBar" style="background-color: rgb(0, 0, 0);"></div>
+                </div>
+                <div class="stenoUpperBank">
+                    <div class="stenoKey square code81 " id="stenoKeyS-1" style="background-color: rgb(0, 0, 0);">S</div>
+                    <div class="stenoKey square code87" id="stenoKeyK-" style="background-color: rgb(0, 0, 0);">K</div>
+                    <div class="stenoKey square code69" id="stenoKeyR-" style="background-color: rgb(0, 0, 0);">R</div>
+                    <div class="stenoKey square code82 code70" id="stenoKeyN-1-" style="background-color: rgb(0, 0, 0);">N</div>
+                    <div class="stenoKey square code84  " id="stenoKeyH-2" style="background-color: rgb(0, 0, 0);">H</div>
+                    <div class="stenoKey square code85" id="stenoKeyAsterisk" style="background-color: rgb(0, 0, 0);">*</div>
+                    <div class="stenoKey square code73" id="stenoKey-W" style="background-color: rgb(0, 0, 0);">W</div>
+                    <div class="stenoKey square code79 code76" id="stenoKey-J-1" style="background-color: rgb(0, 0, 0);">J</div>
+                    <div class="stenoKey square code80" id="stenoKey-N" style="background-color: rgb(0, 0, 0);">N</div>
+                    <div class="stenoKey square code219" id="stenoKey-T" style="background-color: rgb(0, 0, 0);">T</div>
+                </div>
+                <div class="stenoLowerBank">
+                    <div class="stenoKey rounded  code65" id="stenoKeyT-" style="background-color: rgb(0, 0, 0);">T</div>
+                    <div class="stenoKey rounded code83" id="stenoKeyP-" style="background-color: rgb(0, 0, 0);">P</div>
+                    <div class="stenoKey rounded code68" id="stenoKeyH-1" style="background-color: rgb(0, 0, 0);">H</div>
+                    <div class="stenoKey rounded code82 code70" id="stenoKeyN-2" style="background-color: rgb(0, 0, 0);">N</div>
+                    <div class="stenoKey rounded  code71 " id="stenoKeyS-2" style="background-color: rgb(0, 0, 0);">S</div>
+                    <div class="stenoKey rounded code74" id="stenoKey-I" style="background-color: rgb(0, 0, 0);">I</div>
+                    <div class="stenoKey rounded code75" id="stenoKey-Y" style="background-color: rgb(0, 0, 0);">Y</div>
+                    <div class="stenoKey rounded code79 code76" id="stenoKey-J-2" style="background-color: rgb(0, 0, 0);">J</div>
+                    <div class="stenoKey rounded code59 code186" id="stenoKey-G" style="background-color: rgb(0, 0, 0);">G</div>
+                    <div class="stenoKey rounded code222" id="stenoKey-K" style="background-color: rgb(0, 0, 0);">K</div>
+                </div>
+                <div class="stenoVowelKeys">
+                    <div class="stenoKey rounded code67" id="stenoKeyU-" style="background-color: rgb(0, 0, 0);">U</div>
+                    <div class="stenoKey rounded code86" id="stenoKeyO-" style="background-color: rgb(0, 0, 0);">O</div>
+                    <div class="stenoKey rounded code78" id="stenoKey-E" style="background-color: rgb(0, 0, 0);">E</div>
+                    <div class="stenoKey rounded code77" id="stenoKey-A" style="background-color: rgb(0, 0, 0);">A</div>
+                </div>
+            <div class="ui-resizable-handle ui-resizable-e"></div><div class="ui-resizable-handle ui-resizable-s"></div><div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se" style="z-index: 1001;"></div></div>
+    
                         </div>
-                        <div class="stdRow">
-                            <div class="stdKey code9" id="stdKeyTab" style="background-color: rgb(0, 0, 0);">Tab</div>
-                            <div class="stdKey code81" id="stdKeyQ" style="background-color: rgb(0, 0, 0);">Q</div>
-                            <div class="stdKey code87" id="stdKeyW" style="background-color: rgb(0, 0, 0);">W</div>
-                            <div class="stdKey code69" id="stdKeyE" style="background-color: rgb(0, 0, 0);">E</div>
-                            <div class="stdKey code82" id="stdKeyR" style="background-color: rgb(0, 0, 0);">R</div>
-                            <div class="stdKey code84" id="stdKeyT" style="background-color: rgb(0, 0, 0);">T</div>
-                            <div class="stdKey code89" id="stdKeyY" style="background-color: rgb(0, 0, 0);">Y</div>
-                            <div class="stdKey code85" id="stdKeyU" style="background-color: rgb(0, 0, 0);">U</div>
-                            <div class="stdKey code73" id="stdKeyI" style="background-color: rgb(0, 0, 0);">I</div>
-                            <div class="stdKey code79" id="stdKeyO" style="background-color: rgb(0, 0, 0);">O</div>
-                            <div class="stdKey code80" id="stdKeyP" style="background-color: rgb(0, 0, 0);">P</div>
-                            <div class="stdKey code219" id="stdKeyOpenBracket" style="background-color: rgb(0, 0, 0);"><span class="upper">{</span><span class="lower">[</span></div>
-                            <div class="stdKey code221" id="stdKeyCloseBracket" style="background-color: rgb(0, 0, 0);"><span class="upper">}</span><span class="lower">]</span></div>
-                            <div class="stdKey code220" id="stdKeyBackslash" style="background-color: rgb(0, 0, 0);"><span class="upper">|</span><span class="lower">\</span></div>
-                        </div>
-                        <div class="stdRow">
-                            <div class="stdKey code20" id="stdKeyCapsLock" style="background-color: rgb(0, 0, 0);">Caps Lock</div>
-                            <div class="stdKey code65" id="stdKeyA" style="background-color: rgb(0, 0, 0);">A</div>
-                            <div class="stdKey code83" id="stdKeyS" style="background-color: rgb(0, 0, 0);">S</div>
-                            <div class="stdKey code68" id="stdKeyD" style="background-color: rgb(0, 0, 0);">D</div>
-                            <div class="stdKey code70" id="stdKeyF" style="background-color: rgb(0, 0, 0);">F</div>
-                            <div class="stdKey code71" id="stdKeyG" style="background-color: rgb(0, 0, 0);">G</div>
-                            <div class="stdKey code72" id="stdKeyH" style="background-color: rgb(0, 0, 0);">H</div>
-                            <div class="stdKey code74" id="stdKeyJ" style="background-color: rgb(0, 0, 0);">J</div>
-                            <div class="stdKey code75" id="stdKeyK" style="background-color: rgb(0, 0, 0);">K</div>
-                            <div class="stdKey code76" id="stdKeyL" style="background-color: rgb(0, 0, 0);">L</div>
-                            <div class="stdKey code59 code186" id="stdKeySemicolon" style="background-color: rgb(0, 0, 0);"><span class="upper">:</span><span class="lower">;</span></div>
-                            <div class="stdKey code222" id="stdKeySingleQuote" style="background-color: rgb(0, 0, 0);"><span class="upper">"</span><span class="lower">'</span></div>
-                            <div class="stdKey code13" id="stdKeyEnter" style="background-color: rgb(0, 0, 0);">Enter</div>
-                        </div>
-                        <div class="stdRow">
-                            <div class="stdKey code16" id="stdKeyLeftShift" style="background-color: rgb(0, 0, 0);">Shift</div>
-                            <div class="stdKey code90" id="stdKeyZ" style="background-color: rgb(0, 0, 0);">Z</div>
-                            <div class="stdKey code88" id="stdKeyX" style="background-color: rgb(0, 0, 0);">X</div>
-                            <div class="stdKey code67" id="stdKeyC" style="background-color: rgb(0, 0, 0);">C</div>
-                            <div class="stdKey code86" id="stdKeyV" style="background-color: rgb(0, 0, 0);">V</div>
-                            <div class="stdKey code66" id="stdKeyB" style="background-color: rgb(0, 0, 0);">B</div>
-                            <div class="stdKey code78" id="stdKeyN" style="background-color: rgb(0, 0, 0);">N</div>
-                            <div class="stdKey code77" id="stdKeyM" style="background-color: rgb(0, 0, 0);">M</div>
-                            <div class="stdKey code188" id="stdKeyComma" style="background-color: rgb(0, 0, 0);"><span class="upper">&lt;</span><span class="lower">,</span></div>
-                            <div class="stdKey code190" id="stdKeyPeriod" style="background-color: rgb(0, 0, 0);"><span class="upper">&gt;</span><span class="lower">.</span></div>
-                            <div class="stdKey code191" id="stdKeySlash" style="background-color: rgb(0, 0, 0);"><span class="upper">?</span><span class="lower">/</span></div>
-                            <div class="stdKey code16" id="stdKeyRightShift" style="background-color: rgb(0, 0, 0);">Shift</div>
-                        </div>
-                        <div class="stdRow">
-                            <div class="stdKey code17" id="stdKeyLeftControl" style="background-color: rgb(0, 0, 0);">Ctrl</div>
-                            <div class="stdKey code91" id="stdKeyLeftWindows" style="background-color: rgb(0, 0, 0);">Win</div>
-                            <div class="stdKey code18" id="stdKeyLeftAlt" style="background-color: rgb(0, 0, 0);">Alt</div>
-                            <div class="stdKey code32" id="stdKeySpace" style="background-color: rgb(0, 0, 0);">Space</div>
-                            <div class="stdKey code18" id="stdKeyRightAlt" style="background-color: rgb(0, 0, 0);">Alt</div>
-                            <div class="stdKey code92" id="stdKeyRightWindow" style="background-color: rgb(0, 0, 0);">Win</div>
-                            <div class="stdKey code93" id="stdKeyMenu" style="background-color: rgb(0, 0, 0);">Menu</div>
-                            <div class="stdKey code17" id="stdKeyRightControl" style="background-color: rgb(0, 0, 0);">Ctrl</div>
-                        </div>
-                    <div class="ui-resizable-handle ui-resizable-e"></div><div class="ui-resizable-handle ui-resizable-s"></div><div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se" style="z-index: 1001;"></div></div>
-            
-                    <!-- STENO KEYBOARD -->
-                    <div id="stenoKeyboard" class="ui-draggable ui-resizable">
-                        <div class="stenoNumberBar">
-                            <div class="stenoKey numberBar code48 code49 code50 code51 code52 code53 code54 code55 code56 code57" id="stenoKeyNumberBar" style="background-color: rgb(0, 0, 0);"></div>
-                        </div>
-                        <div class="stenoUpperBank">
-                            <div class="stenoKey square code81 code65" id="stenoKeyS-1" style="background-color: rgb(0, 0, 0);">S</div>
-                            <div class="stenoKey square code87" id="stenoKeyT-" style="background-color: rgb(0, 0, 0);">T</div>
-                            <div class="stenoKey square code69" id="stenoKeyP-" style="background-color: rgb(0, 0, 0);">P</div>
-                            <div class="stenoKey square code82" id="stenoKeyH-" style="background-color: rgb(0, 0, 0);">H</div>
-                            <div class="stenoKey square code71 code72 code84 code89" id="stenoKeyAsterisk1" style="background-color: rgb(0, 0, 0);">*</div>
-                            <div class="stenoKey square code85" id="stenoKey-F" style="background-color: rgb(0, 0, 0);">F</div>
-                            <div class="stenoKey square code73" id="stenoKey-P" style="background-color: rgb(0, 0, 0);">P</div>
-                            <div class="stenoKey square code79" id="stenoKey-L" style="background-color: rgb(0, 0, 0);">L</div>
-                            <div class="stenoKey square code80" id="stenoKey-T" style="background-color: rgb(0, 0, 0);">T</div>
-                            <div class="stenoKey square code219" id="stenoKey-D" style="background-color: rgb(0, 0, 0);">D</div>
-                        </div>
-                        <div class="stenoLowerBank">
-                            <div class="stenoKey rounded code81 code65" id="stenoKeyS-2" style="background-color: rgb(0, 0, 0);">S</div>
-                            <div class="stenoKey rounded code83" id="stenoKeyK-" style="background-color: rgb(0, 0, 0);">K</div>
-                            <div class="stenoKey rounded code68" id="stenoKeyW-" style="background-color: rgb(0, 0, 0);">W</div>
-                            <div class="stenoKey rounded code70" id="stenoKeyR-" style="background-color: rgb(0, 0, 0);">R</div>
-                            <div class="stenoKey rounded code71 code72 code84 code89" id="stenoKeyAsterisk2" style="background-color: rgb(0, 0, 0);">*</div>
-                            <div class="stenoKey rounded code74" id="stenoKey-R" style="background-color: rgb(0, 0, 0);">R</div>
-                            <div class="stenoKey rounded code75" id="stenoKey-B" style="background-color: rgb(0, 0, 0);">B</div>
-                            <div class="stenoKey rounded code76" id="stenoKey-G" style="background-color: rgb(0, 0, 0);">G</div>
-                            <div class="stenoKey rounded code59 code186" id="stenoKey-S" style="background-color: rgb(0, 0, 0);">S</div>
-                            <div class="stenoKey rounded code222" id="stenoKey-Z" style="background-color: rgb(0, 0, 0);">Z</div>
-                        </div>
-                        <div class="stenoVowelKeys">
-                            <div class="stenoKey rounded code67" id="stenoKeyA-" style="background-color: rgb(0, 0, 0);">A</div>
-                            <div class="stenoKey rounded code86" id="stenoKeyO-" style="background-color: rgb(0, 0, 0);">O</div>
-                            <div class="stenoKey rounded code78" id="stenoKey-E" style="background-color: rgb(0, 0, 0);">E</div>
-                            <div class="stenoKey rounded code77" id="stenoKey-U" style="background-color: rgb(0, 0, 0);">U</div>
-                        </div>
-                    <div class="ui-resizable-handle ui-resizable-e"></div><div class="ui-resizable-handle ui-resizable-s"></div><div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se" style="z-index: 1001;"></div></div>
-            
-                                </div>
-                            </div>
-                        
                     </div>
+                
             </div>
-            <div class="about-us"> About us </div>
-            </div>
+    </div>
+    <div class="about-us"> About us </div>
+    </div>
     `,
 }

@@ -25,7 +25,18 @@ view.setActiveScreen = (componentName) => {
                 }
                 lesson_basic_button.addEventListener('click', handleCreateLessonBasicPage);
                 lesson_basic_page.addEventListener('click', handleCreateLessonBasicPage);
+              
 
+                //click from home to lasson
+                const lesson_advance_button = document.getElementById("lesson-advanced-button") ;
+                const lesson_advance_page= document.getElementById("lesson-advance")
+                
+                if( lesson_advance_button || lesson_advance_page )
+                  handleCreateLessonAdvancePage = ( _event) =>{
+                    view.setActiveScreen('lesson_advance_page')
+                  }
+                  lesson_advance_button.addEventListener('click', handleCreateLessonAdvancePage);
+                  // lesson_advance_page.addEventListener('click', handleCreateLessonAdvancePage);
 
                 //click from home to practice
               const practice_button = document.getElementById("practice-button") ;
@@ -299,9 +310,16 @@ view.setActiveScreen = (componentName) => {
             }
           break;
 
-          case 'lesson_advance_page1':
+          case 'lesson_advance_page':
             if(app){
-              app.innerHTML=components.lesson_advance_page1
+              app.innerHTML=components.lesson_advance_page
+            }
+            const createHomeButtonStart_lesson_advance = document.getElementById('home-page-button');
+            if (createHomeButtonStart_lesson_advance) {
+              handleCreateHomeClick = (_event) => {
+                view.setActiveScreen('home');
+              };
+              createHomeButtonStart_lesson_advance.addEventListener('click', handleCreateHomeClick);
             }
 
             break;
