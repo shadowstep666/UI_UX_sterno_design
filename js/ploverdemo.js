@@ -31,7 +31,7 @@ var translatedString = '';
  * @see The <a href="http://code.google.com/p/chromium/issues/detail?id=40787">chrome bug report</a>.
  */
 var binaryToSteno = {};
-$.getJSON('assets/binaryToSteno.json', function (data) {
+$.getJSON('../assets/binaryToSteno.json', function (data) {
 	binaryToSteno = data;
 });
 
@@ -41,7 +41,7 @@ $.getJSON('assets/binaryToSteno.json', function (data) {
  * @see The <a href="http://code.google.com/p/chromium/issues/detail?id=40787">chrome bug report</a>.
  */
 var dictionary = {};
-$.getJSON('assets/dict.json', function (data) {
+$.getJSON('../assets/dict.json', function (data) {
 	dictionary = data;
 });
 
@@ -51,7 +51,7 @@ $.getJSON('assets/dict.json', function (data) {
  * @see The <a href="http://code.google.com/p/chromium/issues/detail?id=40787">chrome bug report</a>.
  */
 var keyCodeToQwerty = {};
-$.getJSON('assets/keyCodeToQwerty.json', function (data) {
+$.getJSON('../assets/keyCodeToQwerty.json', function (data) {
 	keyCodeToQwerty = data;
 });
 
@@ -61,7 +61,7 @@ $.getJSON('assets/keyCodeToQwerty.json', function (data) {
  * @see The <a href="http://code.google.com/p/chromium/issues/detail?id=40787">chrome bug report</a>.
  */
 var keyCodeToSteno = {};
-$.getJSON('assets/keyCodeToSteno.json', function (data) {
+$.getJSON('../assets/keyCodeToSteno.json', function (data) {
 	keyCodeToSteno = data;
 });
 
@@ -71,7 +71,7 @@ $.getJSON('assets/keyCodeToSteno.json', function (data) {
  * @see The <a href="http://code.google.com/p/chromium/issues/detail?id=40787">chrome bug report</a>.
  */
 var stenoKeyNumbers = {};
-$.getJSON('assets/stenoKeyNumbers.json', function (data) {
+$.getJSON('../assets/stenoKeyNumbers.json', function (data) {
 	stenoKeyNumbers = data;
 });
 
@@ -100,15 +100,14 @@ function colorCode(keys) {
 	}
 
 	// *
-	if ('*' in stenoKeys) {
-		$('#stenoKeyAsterisk1').css('background-color', '#822259');
-		$('#stenoKeyAsterisk2').css('background-color', '#822259');
+	if ('N' in stenoKeys) {
+		$('#stenoKeyN-1-').css('background-color', '#822259');
+		$('#stenoKeyN-2-').css('background-color', '#822259');
 	}
 
 	// Initial S
 	if ('S-' in stenoKeys) {
 		$('#stenoKeyS-1').css('background-color', '#00ff00');
-		
 	}
 
 	// Final S
@@ -127,69 +126,66 @@ function colorCode(keys) {
 		$('#stenoKey-T').css('background-color', '#8000ff');
 	}
 
+	// Initial K
+	if ('K-' in stenoKeys) {
+		$('#stenoKeyK-').css('background-color', '#0080ff');
+	}
+
 	// Initial P
 	if ('P-' in stenoKeys) {
 		$('#stenoKeyP-').css('background-color', '#0080ff');
 	}
 
-	// Final P
-	if ('-P' in stenoKeys) {
-		$('#stenoKey-P').css('background-color', '#0080ff');
+	// Initial H
+	if ('H-' in stenoKeys) {
+		$('#stenoKeyH-').css('background-color', '#00ff80');
 	}
 
-	// Initial R
+	// Final H
+	if ('-H' in stenoKeys) {
+		$('#stenoKey-H').css('background-color', '#00ff80');
+	}
+
+	// initial R
 	if ('R-' in stenoKeys) {
-		$('#stenoKeyR-').css('background-color', '#00ff80');
+		$('#stenoKeyR-').css('background-color', '#800000');
 	}
 
-	// Final R
-	if ('-R' in stenoKeys) {
-		$('#stenoKey-R').css('background-color', '#00ff80');
+	//  *
+	if ('*' in stenoKeys) {
+		$('#stenoKeyAsterisk').css('background-color', '#808000');
 	}
 
-	// Final B
-	if ('-B' in stenoKeys) {
-		$('#stenoKey-B').css('background-color', '#800000');
+	// Final I
+	if ('-I' in stenoKeys) {
+		$('#stenoKey-I').css('background-color', '#008000');
 	}
 
-	// Final D
-	if ('-D' in stenoKeys) {
-		$('#stenoKey-D').css('background-color', '#808000');
+	// Final W
+	if ('-W' in stenoKeys) {
+		$('#stenoKey-W').css('background-color', '#008080');
 	}
 
-	// Final F
-	if ('-F' in stenoKeys) {
-		$('#stenoKey-F').css('background-color', '#008000');
+	// Final Y
+	if ('-Y' in stenoKeys) {
+		$('#stenoKey-Y').css('background-color', '#800080');
 	}
 
-	// Final G
-	if ('-G' in stenoKeys) {
-		$('#stenoKey-G').css('background-color', '#008080');
+	// J
+	if ('J' in stenoKeys) {
+		$('#stenoKey-J-1').css('background-color', '#80ffff');
+		$('#stenoKey-J-2').css('background-color', '#80ffff');
 	}
 
-	// Initial K
-	if ('K-' in stenoKeys) {
-		$('#stenoKeyK-').css('background-color', '#800080');
+	// Final N
+	if ('-N' in stenoKeys) {
+		$('#stenoKey-N').css('background-color', '#808080');
 	}
 
-	// Final L
-	if ('-L' in stenoKeys) {
-		$('#stenoKey-L').css('background-color', '#80ffff');
-	}
 
-	// Final V
-	if ('-F' in stenoKeys) {
-		$('#stenoKey-F').css('background-color', '#808080');
-	}
-
-	// Final Z
-	if ('-Z' in stenoKeys) {
-		$('#stenoKey-Z').css('background-color', '#ff0000');
-	}
-
-	// Initial A
-	if ('A-' in stenoKeys) {
-		$('#stenoKeyA-').css('background-color', '#9df347');
+	// Initial U
+	if ('U-' in stenoKeys) {
+		$('#stenoKeyu-').css('background-color', '#9df347');
 	}
 
 	// Final E
@@ -197,9 +193,9 @@ function colorCode(keys) {
 		$('#stenoKey-E').css('background-color', '#f0a637');
 	}
 
-	// Initial H
-	if ('H-' in stenoKeys) {
-		$('#stenoKeyH-').css('background-color', '#c558d3');
+	// Final K
+	if ('-K' in stenoKeys) {
+		$('#stenoKey-K').css('background-color', '#c558d3');
 	}
 
 	// Initial O
@@ -207,14 +203,14 @@ function colorCode(keys) {
 		$('#stenoKeyO-').css('background-color', '#485771');
 	}
 
-	// Final U
-	if ('-U' in stenoKeys) {
-		$('#stenoKey-U').css('background-color', '#bcf3ed');
+	// Final A
+	if ('-A' in stenoKeys) {
+		$('#stenoKey-A').css('background-color', '#bcf3ed');
 	}
 
-	// Initial W
-	if ('W-' in stenoKeys) {
-		$('#stenoKeyW-').css('background-color', '#f26abf');
+	// Final G
+	if ('-G' in stenoKeys) {
+		$('#stenoKey-G').css('background-color', '#f26abf');
 	}
 
 	// Color code the letters that use 2 Steno Keys.
@@ -674,7 +670,7 @@ function Chord(keysParam) {
 				}
 			}
 		}
-		if (this.contains('A-') || this.contains('O-') || this.contains('-E') || this.contains('-U') || this.contains('*')) {
+		if (this.contains('U-') || this.contains('O-') || this.contains('-E') || this.contains('-A') || this.contains('*')) {
 			return rtfcre.replace(/-/g, '');
 		}
 		if (rtfcre[0] === '-') {

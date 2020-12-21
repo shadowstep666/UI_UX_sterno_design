@@ -13,16 +13,17 @@ const components ={
                         <div class="sub-item" id="lesson-basic-1">Bài 1.Giới thiệu về gõ tốc ký</div>
                         <div class="sub-item" id="lesson-basic-2">Bài 2.Giới thiệu về bàn phím tốc ký</div>
                         <div class="sub-item" id="lesson-basic-3">Bài 3.Các quy tắc gõ tốc ký </div>
+                        <div class="sub-item" id="lesson-basic-4">Bài 4.Giới thiệu về trang web </div>
         
-                        <div class="navigation-bar-item" id="lesson-advanced-button">Bài học nâng cao</div>
+                        <div class="navigation-bar-item" id="lesson-advance-button">Bài học nâng cao</div>
         
                         <div class="navigation-bar-item" id="practice-button">Thực hành</div>
         
-                        <div class="navigation-bar-item" id="game-button">Trò chơi</div>
+                        <div class="navigation-bar-item" id="evaluate-button"">Đánh giá</div>
         
-                        <div class="navigation-bar-item" id="contract-button">Liên hệ </div>
+                        <div class="navigation-bar-item" id="report-button">Phản hồi </div>
         
-                        <div class="navigation-bar-item" id="acoount-button">Tài khoản</div>
+                        <div class="navigation-bar-item" id="account-button">Tài khoản</div>
             </div>
         </div>
         <div class="rightside">
@@ -40,7 +41,7 @@ const components ={
         
     </div>
     </div>
-    <div class="about-us"> About us </div>
+
     `,
 
   lesson_basic_page2:
@@ -56,16 +57,17 @@ const components ={
                       <div class="sub-item" id="lesson-basic-1">Bài 1.Giới thiệu về gõ tốc ký</div>
                       <div class="sub-item" id="lesson-basic-2">Bài 2.Giới thiệu về bàn phím tốc ký</div>
                       <div class="sub-item" id="lesson-basic-3">Bài 3.Các quy tắc gõ tốc ký </div>
-      
-                      <div class="navigation-bar-item" id="lesson-advanced-button">Bài học nâng cao</div>
+                      <div class="sub-item" id="lesson-basic-4">Bài 4.Giới thiệu về trang web </div>
+
+                      <div class="navigation-bar-item" id="lesson-advance-button">Bài học nâng cao</div>
       
                       <div class="navigation-bar-item" id="practice-button">Thực hành</div>
       
-                      <div class="navigation-bar-item" id="game-button">Trò chơi</div>
+                      <div class="navigation-bar-item" id="evaluate-button"">Đánh giá</div>
+        
+                      <div class="navigation-bar-item" id="report-button">Phản hồi </div>
       
-                      <div class="navigation-bar-item" id="contract-button">Liên hệ </div>
-      
-                      <div class="navigation-bar-item" id="acoount-button">Tài khoản</div>
+                      <div class="navigation-bar-item" id="account-button">Tài khoản</div>
           </div>
       </div>
       <div class="rightside">
@@ -134,7 +136,7 @@ const components ={
       </div>
   </div>
   </div>
-<div class="about-us"> About us </div>
+
 </div>
 ` ,
 
@@ -154,16 +156,18 @@ const components ={
                       <div class="s-sub-item" id="lesson-basic-3-first-sound">Bài 3.1 Các quy tắc gõ âm đầu</div>
                       <div class="s-sub-item" id="lesson-basic-3-main-sound">Bài 3.2 Các quy tắc gõ chính</div>
                       <div class="s-sub-item" id="lesson-basic-3-sub-3-end-sound">Bài 3.3 Các quy tắc gõ cươi</div>
-      
-                      <div class="navigation-bar-item" id="lesson-advanced-button">Bài học nâng cao</div>
+                      
+                      <div class="sub-item" id="lesson-basic-4">Bài 4.Giới thiệu về trang web </div>
+
+                      <div class="navigation-bar-item" id="lesson-advance-button">Bài học nâng cao</div>
       
                       <div class="navigation-bar-item" id="practice-button">Thực hành</div>
       
-                      <div class="navigation-bar-item" id="game-button">Trò chơi</div>
+                      <div class="navigation-bar-item" id="evaluate-button"">Đánh giá</div>
+        
+                      <div class="navigation-bar-item" id="report-button">Phản hồi </div>
       
-                      <div class="navigation-bar-item" id="contract-button">Liên hệ </div>
-      
-                      <div class="navigation-bar-item" id="acoount-button">Tài khoản</div>
+                      <div class="navigation-bar-item" id="account-button">Tài khoản</div>
           </div>
       </div>
       <div class="rightside">
@@ -185,7 +189,7 @@ const components ={
       </div>
   </div>
   </div>
-<div class="about-us"> About us </div>
+
 </div>`,
 
 
@@ -207,7 +211,7 @@ lesson_basic_first_sound_rule:
                         <div class="s-sub-item" id="lesson-basic-3-main-sound">Bài 3.2 Các quy tắc gõ âm chính</div>
                         <div class="s-sub-item" id="lesson-basic-3-end-sound">Bài 3.3 Các quy tắc gõ âm cuối </div>
         
-                        <div class="navigation-bar-item" id="lesson-advanced-button">Bài học nâng cao</div>
+                        <div class="navigation-bar-item" id="lesson-advance-button">Bài học nâng cao</div>
         
                         <div class="navigation-bar-item" id="practice-button">Thực hành</div>
         
@@ -379,15 +383,15 @@ lesson_basic_first_sound_rule:
                       <div class="s-sub-item" id="lesson-basic-3-main-sound">Bài 3.2 Các quy tắc gõ âm chính</div>
                       <div class="s-sub-item" id="lesson-basic-3-end-sound">Bài 3.3 Các quy tắc gõ âm cuối </div>
       
-                      <div class="navigation-bar-item" id="lesson-advanced-button">Bài học nâng cao</div>
+                      <div class="navigation-bar-item" id="lesson-advance-button">Bài học nâng cao</div>
       
                       <div class="navigation-bar-item" id="practice-button">Thực hành</div>
       
-                      <div class="navigation-bar-item" id="game-button">Trò chơi</div>
+                      <div class="navigation-bar-item" id="evaluate-button"">Đánh giá</div>
+        
+                      <div class="navigation-bar-item" id="report-button">Phản hồi </div>
       
-                      <div class="navigation-bar-item" id="contract-button">Liên hệ </div>
-      
-                      <div class="navigation-bar-item" id="acoount-button">Tài khoản</div>
+                      <div class="navigation-bar-item" id="account-button">Tài khoản</div>
           </div>
       </div>
       <div class="rightside">
@@ -1120,6 +1124,7 @@ lesson_basic_first_sound_rule:
             <div class="container">
                 <div class= "leftside-bar">
                     <div class="navigationMenu">
+                        
                                 <div class="navigation-bar-item" id="home-page-button">Trang chủ</div>
                 
                                 <div  class="navigation-bar-item" id="lesson-basic-button">Bài học cơ bản</div>
@@ -1132,15 +1137,15 @@ lesson_basic_first_sound_rule:
                                 <div class="s-sub-item" id="lesson-basic-3-main-sound">Bài 3.2 Các quy tắc gõ âm chính</div>
                                 <div class="s-sub-item" id="lesson-basic-3-end-sound">Bài 3.3 Các quy tắc gõ âm cuối </div>
                 
-                                <div class="navigation-bar-item" id="lesson-advanced-button">Bài học nâng cao</div>
+                                <div class="navigation-bar-item" id="lesson-advance-button">Bài học nâng cao</div>
                 
                                 <div class="navigation-bar-item" id="practice-button">Thực hành</div>
                 
-                                <div class="navigation-bar-item" id="game-button">Trò chơi</div>
+                                <div class="navigation-bar-item" id="evaluate-button"">Đánh giá</div>
+        
+                                <div class="navigation-bar-item" id="report-button">Phản hồi </div>
                 
-                                <div class="navigation-bar-item" id="contract-button">Liên hệ </div>
-                
-                                <div class="navigation-bar-item" id="acoount-button">Tài khoản</div>
+                                <div class="navigation-bar-item" id="account-button">Tài khoản</div>
                     </div>
                 </div>
                 <div class="rightside">
@@ -1223,7 +1228,6 @@ lesson_basic_first_sound_rule:
                 </div>
             </div>
             </div>
-          <div class="about-us"> About us </div>
           </div>
   `,
 lesson_advance_page:
@@ -1231,25 +1235,26 @@ lesson_advance_page:
   <div id="lesson-advance-page">
             <div class="container">
                 <div class= "leftside-bar">
-                    <div class="navigationMenu">
-                                <div class="navigation-bar-item" id="home-page-button">Trang chủ</div>
+                        <div class="navigationMenu">
+                        <div class="navigation-bar-item" id="home-page-button">Trang chủ</div>
                 
-                                <div  class="navigation-bar-item" id="lesson-basic-button">Bài học cơ bản</div>
-                
-                                <div class="navigation-bar-item" id="lesson-advanced-button">Bài học nâng cao</div>
-                                    <div class="sub-item" id="lesson-advance-1">Bài 1 Học gõ phím</div>
-                                    <div class="sub-item" id="lesson-advance-2">Bài 2 Học gõ âm</div>
-                                    <div class="sub-item" id="lesson-advance-3">Bài 3 Học gõ từ </div>
-                                    <div class="sub-item" id="lesson-advance-4">Bài 4 Học gõ câu</div>
-                                    <div class="sub-item" id="lesson-advance-5">Bài 5 Học gõ số và các dấu</div>
-                                    <div class="sub-item" id="lesson-advance-6"> Bài 6 Học gõ tự do</div>
-                                <div class="navigation-bar-item" id="practice-button">Thực hành</div>
-                
-                                <div class="navigation-bar-item" id="game-button">Trò chơi</div>
-                
-                                <div class="navigation-bar-item" id="contract-button">Liên hệ </div>
-                
-                                <div class="navigation-bar-item" id="acoount-button">Tài khoản</div>
+                        <div  class="navigation-bar-item" id="lesson-basic-button">Bài học cơ bản</div>
+        
+                        <div class="navigation-bar-item" id="lesson-advance-button">Bài học nâng cao</div>
+                            <div class="sub-item" id="lesson-advance-1">Bài 1 Học gõ phím</div>
+                            <div class="sub-item" id="lesson-advance-2">Bài 2 Học gõ âm</div>
+                            <div class="sub-item" id="lesson-advance-3">Bài 3 Học gõ từ </div>
+                            <div class="sub-item" id="lesson-advance-4">Bài 4 Học gõ câu</div>
+                            <div class="sub-item" id="lesson-advance-5">Bài 5 Học gõ số và các dấu</div>
+                            <div class="sub-item" id="lesson-advance-6"> Bài 6 Học gõ tự do</div>
+                        <div class="navigation-bar-item" id="practice-button">Thực hành</div>
+        
+                        <div class="navigation-bar-item" id="evaluate-button"">Đánh giá</div>
+        
+                        <div class="navigation-bar-item" id="report-button">Phản hồi </div>
+        
+                        <div class="navigation-bar-item" id="account-button">Tài khoản</div>
+                              
                     </div>
                 </div>
                 <div class="rightside">
@@ -1268,7 +1273,6 @@ lesson_advance_page:
                 
             </div>
             </div>
-            <div class="about-us"> About us </div>
             </div>
   `,
 
@@ -1278,24 +1282,24 @@ lesson_advance_page:
             <div class="container">
                 <div class= "leftside-bar">
                     <div class="navigationMenu">
-                                <div class="navigation-bar-item" id="home-page-button">Trang chủ</div>
-                
-                                <div  class="navigation-bar-item" id="lesson-basic-button">Bài học cơ bản</div>
-                
-                                <div class="navigation-bar-item" id="lesson-advanced-button">Bài học nâng cao</div>
-                                    <div class="sub-item" id="lesson-basic-1">Bài 1.Học gõ các nguyên âm </div>
-                                        <div class="sub-item-child"  id="lesson-basic-1-theory">Bài 1.1 Các cách gõ các âm chính không có dấu </div>
-                                        <div class="sub-item-child" id="lesson-basic-1-practice" >Bài 1.2 Luyện tập gõ âm chính không có dấu </div>
-                                    <div class="sub-item" id="lesson-basic-2">Bài 2.Giới thiệu về bàn phím tốc ký</div>
-                                    <div class="sub-item" id="lesson-basic-3">Bài 3.Các quy tắc gõ tốc ký </div>
-                
-                                <div class="navigation-bar-item" id="practice-button">Thực hành</div>
-                
-                                <div class="navigation-bar-item" id="game-button">Trò chơi</div>
-                
-                                <div class="navigation-bar-item" id="contract-button">Liên hệ </div>
-                
-                                <div class="navigation-bar-item" id="acoount-button">Tài khoản</div>
+                        <div class="navigation-bar-item" id="home-page-button">Trang chủ</div>
+            
+                        <div  class="navigation-bar-item" id="lesson-basic-button">Bài học cơ bản</div>
+        
+                        <div class="navigation-bar-item" id="lesson-advance-button">Bài học nâng cao</div>
+                            <div class="sub-item" id="lesson-basic-1">Bài 1.Học gõ các nguyên âm </div>
+                            <div class="sub-item-child"  id="lesson-basic-1-theory">Bài 1.1 Các cách gõ các âm chính không có dấu </div>
+                            <div class="sub-item-child" id="lesson-basic-1-practice" >Bài 1.2 Luyện tập gõ âm chính không có dấu </div>
+                            <div class="sub-item" id="lesson-basic-2">Bài 2.Giới thiệu về bàn phím tốc ký</div>
+                            <div class="sub-item" id="lesson-basic-3">Bài 3.Các quy tắc gõ tốc ký </div>
+                        <div class="navigation-bar-item" id="practice-button">Thực hành</div>
+        
+                        <div class="navigation-bar-item" id="evaluate-button"">Đánh giá</div>
+        
+                        <div class="navigation-bar-item" id="report-button">Phản hồi </div>
+        
+                        <div class="navigation-bar-item" id="account-button">Tài khoản</div>
+   
                     </div>
                 </div>
                 <div class="rightside">
@@ -1319,7 +1323,6 @@ lesson_advance_page:
             </div>
             </div>
             
-          <div class="about-us"> About us </div>
           </div>`,
 
 
@@ -1460,15 +1463,15 @@ lesson_advance_page:
         
                         <div  class="navigation-bar-item" id="lesson-basic-button">Bài học cơ bản</div>
         
-                        <div class="navigation-bar-item" id="lesson-advanced-button">Bài học nâng cao</div>
+                        <div class="navigation-bar-item" id="lesson-advance-button">Bài học nâng cao</div>
         
                         <div class="navigation-bar-item" id="practice-button">Thực hành</div>
         
-                        <div class="navigation-bar-item" id="game-button"">Trò chơi</div>
+                        <div class="navigation-bar-item" id="evaluate-button"">Đánh giá</div>
         
-                        <div class="navigation-bar-item" id="contract-button">Liên hệ </div>
+                        <div class="navigation-bar-item" id="report-button">Phản hồi </div>
         
-                        <div class="navigation-bar-item" id="acoount-button">Tài khoản</div>
+                        <div class="navigation-bar-item" id="account-button">Tài khoản</div>
         
             </div>
         </div>
@@ -1488,11 +1491,11 @@ lesson_advance_page:
             
                 <div >
                     <div class="clickableBox" id="basic" >
-                        <h3>Basic</h3>
+                        <h3>Bài học cơ bản</h3>
                         <p>This section contains everything you need to get to grips with the concepts of Stenography and practice drills to get you typing some basic words.</p>
                     </div>
                     <div class="clickableBox" id="advance">
-                        <h3>Intermediate</h3>
+                        <h3>Bài học nâng cao</h3>
                         <p>Here you will find more lessons which expand on the Basics section. There are further practice exercises to help you learn faster.</p>
                     </div>
                 </div>
@@ -1500,13 +1503,13 @@ lesson_advance_page:
                 <div >
             
                     <div class="clickableBox" id="practice">
-                        <h3>Practice</h3>
+                        <h3>Thực hành</h3>
                         <p>Once you have completed the lesson sections, this section will provide valuable practice for building your speed.</p>
                     </div>
             
-                    <div class="clickableBox" id="game">
-                        <h3>Games</h3>
-                        <p>A more fun and competitive way to practice!</p>
+                    <div class="clickableBox" id="evaluate">
+                        <h3>Đánh giá</h3>
+                        <p></p>
                     </div>
                 </div>
             
@@ -1514,7 +1517,7 @@ lesson_advance_page:
             
         </div>
     </div>
-<div class="about-us"> About us </div>
+
 </div>
   
     `,
@@ -1525,19 +1528,19 @@ lesson_advance_page:
     <div class="container">
         <div class= "leftside-bar">
             <div class="navigationMenu">
-                        <div class="navigation-bar-item" id="home-page-button">Trang chủ</div>
+            <div class="navigation-bar-item" id="home-page-button">Trang chủ</div>
         
-                        <div  class="navigation-bar-item" id="lesson-basic-button">Bài học cơ bản</div>
-        
-                        <div class="navigation-bar-item" id="lesson-advanced-button">Bài học nâng cao</div>
-  
-                        <div class="navigation-bar-item" id="practice-button">Thực hành</div>
-        
-                        <div class="navigation-bar-item" id="game-button">Trò chơi</div>
-        
-                        <div class="navigation-bar-item" id="contract-button">Liên hệ </div>
-        
-                        <div class="navigation-bar-item" id="acoount-button">Tài khoản</div>
+            <div  class="navigation-bar-item" id="lesson-basic-button">Bài học cơ bản</div>
+
+            <div class="navigation-bar-item" id="lesson-advance-button">Bài học nâng cao</div>
+
+            <div class="navigation-bar-item" id="practice-button">Thực hành</div>
+
+            <div class="navigation-bar-item" id="evaluate-button"">Đánh giá</div>
+
+            <div class="navigation-bar-item" id="report-button">Phản hồi </div>
+
+            <div class="navigation-bar-item" id="account-button">Tài khoản</div>
             </div>
         </div>
         <div class="rightside">
@@ -1640,7 +1643,7 @@ lesson_advance_page:
                     <div class="stenoKey square code87" id="stenoKeyK-" style="background-color: rgb(0, 0, 0);">K</div>
                     <div class="stenoKey square code69" id="stenoKeyR-" style="background-color: rgb(0, 0, 0);">R</div>
                     <div class="stenoKey square code82 code70" id="stenoKeyN-1-" style="background-color: rgb(0, 0, 0);">N</div>
-                    <div class="stenoKey square code84  " id="stenoKeyH-2" style="background-color: rgb(0, 0, 0);">H</div>
+                    <div class="stenoKey square code84  " id="stenoKey-H" style="background-color: rgb(0, 0, 0);">H</div>
                     <div class="stenoKey square code85" id="stenoKeyAsterisk" style="background-color: rgb(0, 0, 0);">*</div>
                     <div class="stenoKey square code73" id="stenoKey-W" style="background-color: rgb(0, 0, 0);">W</div>
                     <div class="stenoKey square code79 code76" id="stenoKey-J-1" style="background-color: rgb(0, 0, 0);">J</div>
@@ -1650,13 +1653,13 @@ lesson_advance_page:
                 <div class="stenoLowerBank">
                     <div class="stenoKey rounded  code65" id="stenoKeyT-" style="background-color: rgb(0, 0, 0);">T</div>
                     <div class="stenoKey rounded code83" id="stenoKeyP-" style="background-color: rgb(0, 0, 0);">P</div>
-                    <div class="stenoKey rounded code68" id="stenoKeyH-1" style="background-color: rgb(0, 0, 0);">H</div>
-                    <div class="stenoKey rounded code82 code70" id="stenoKeyN-2" style="background-color: rgb(0, 0, 0);">N</div>
-                    <div class="stenoKey rounded  code71 " id="stenoKeyS-2" style="background-color: rgb(0, 0, 0);">S</div>
+                    <div class="stenoKey rounded code68" id="stenoKeyH-" style="background-color: rgb(0, 0, 0);">H</div>
+                    <div class="stenoKey rounded code82 code70" id="stenoKeyN-2-" style="background-color: rgb(0, 0, 0);">N</div>
+                    <div class="stenoKey rounded  code71 " id="stenoKey-S" style="background-color: rgb(0, 0, 0);">S</div>
                     <div class="stenoKey rounded code74" id="stenoKey-I" style="background-color: rgb(0, 0, 0);">I</div>
                     <div class="stenoKey rounded code75" id="stenoKey-Y" style="background-color: rgb(0, 0, 0);">Y</div>
                     <div class="stenoKey rounded code79 code76" id="stenoKey-J-2" style="background-color: rgb(0, 0, 0);">J</div>
-                    <div class="stenoKey rounded code59 code186" id="stenoKey-G" style="background-color: rgb(0, 0, 0);">G</div>
+                    <div class="stenoKey rounded code186 " id="stenoKey-G" style="background-color: rgb(0, 0, 0);">G</div>
                     <div class="stenoKey rounded code222" id="stenoKey-K" style="background-color: rgb(0, 0, 0);">K</div>
                 </div>
                 <div class="stenoVowelKeys">
@@ -1672,7 +1675,157 @@ lesson_advance_page:
                 
             </div>
     </div>
-    <div class="about-us"> About us </div>
+
     </div>
     `,
+    
+    evaluate_page:
+    `
+    <div id="evaluate_page">
+    <div class="container">
+        <div class= "leftside-bar">
+            <div class="navigationMenu">
+            <div class="navigation-bar-item" id="home-page-button">Trang chủ</div>
+        
+            <div  class="navigation-bar-item" id="lesson-basic-button">Bài học cơ bản</div>
+
+            <div class="navigation-bar-item" id="lesson-advance-button">Bài học nâng cao</div>
+
+            <div class="navigation-bar-item" id="practice-button">Thực hành</div>
+
+            <div class="navigation-bar-item" id="evaluate-button"">Đánh giá</div>
+
+            <div class="navigation-bar-item" id="report-button">Phản hồi </div>
+
+            <div class="navigation-bar-item" id="account-button">Tài khoản</div>
+            </div>
+        </div>
+        <div class="rightside">
+            <h1>Đánh giá</h1>
+            <div class="siteThemeColour" ></div>
+            <div class="page-container">
+                <div class='main-container'>
+                  <h2>Đánh giá quá trình học gõ tốc ký</h2>
+                    <img src="../Images/Biểu đồ đánh giá.PNG">
+                  <h2> Chi tiết quá trình học gõ tốc ký</h2>
+                  <table class="fl-table">
+                    <thead>
+                    <tr>
+                        <th>Ngày</th>
+                        <th>Số từ gõ đúng</th>
+                        <th>Số từ gõ sai</th>
+                        <th>Tổng số từ</th>
+                        <th>Thời gian gõ(s)</th>
+                        <th>Tốc độ gõ(w/m)</th>
+                        <th>Độ chính xác</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td >16/12/2020</td>
+                            <td >50</td>
+                            <td >250</td>
+                            <td >300</td>
+                            <td >450</td>
+                            <td >40</td>
+                            <td >16,67%</td>
+                        </tr>
+                        <tr>
+                            <td >17/12/2020</td>
+                            <td >70</td>
+                            <td >240</td>
+                            <td >310</td>
+                            <td >300</td>
+                            <td >62</td>
+                            <td >22,58%</td>
+                        </tr>
+                        <tr>
+                            <td >18/12/2020</td>
+                            <td >100</td>
+                            <td >180</td>
+                            <td >280</td>
+                            <td >200</td>
+                            <td >84</td>
+                            <td >35,71%</td>
+                        </tr>
+                        <tr>
+                            <td >19/12/2020</td>
+                            <td >240</td>
+                            <td >60</td>
+                            <td >300</td>
+                            <td >150</td>
+                            <td >120</td>
+                            <td >80%</td>
+                        </tr>
+                    </tbody>
+                </table>
+                </div>
+            </div>
+        
+    </div>
+    </div>
+    </div>
+    `,
+
+    report_page:
+    `
+    <div id="report_page">
+    <div class="container">
+        <div class= "leftside-bar">
+            <div class="navigationMenu">
+            <div class="navigation-bar-item" id="home-page-button">Trang chủ</div>
+        
+            <div  class="navigation-bar-item" id="lesson-basic-button">Bài học cơ bản</div>
+
+            <div class="navigation-bar-item" id="lesson-advance-button">Bài học nâng cao</div>
+
+            <div class="navigation-bar-item" id="practice-button">Thực hành</div>
+
+            <div class="navigation-bar-item" id="evaluate-button"">Đánh giá</div>
+
+            <div class="navigation-bar-item" id="report-button">Phản hồi </div>
+
+            <div class="navigation-bar-item" id="account-button">Tài khoản</div>
+            </div>
+        </div>
+        <div class="rightside">
+            <h1>Phản hồi</h1>
+            <div class="siteThemeColour" ></div>
+            <div class="page-container">
+                <div class='main-container'>
+                    <div class="stars">
+                        <form action="">
+                          <input class="star star-5" id="star-5" type="radio" name="star"/>
+                          <label class="star star-5" for="star-5"></label>
+                          <input class="star star-4" id="star-4" type="radio" name="star"/>
+                          <label class="star star-4" for="star-4"></label>
+                          <input class="star star-3" id="star-3" type="radio" name="star"/>
+                          <label class="star star-3" for="star-3"></label>
+                          <input class="star star-2" id="star-2" type="radio" name="star"/>
+                          <label class="star star-2" for="star-2"></label>
+                          <input class="star star-1" id="star-1" type="radio" name="star"/>
+                          <label class="star star-1" for="star-1"></label>
+                        </form>
+                      </div>
+                      
+                <div id='chat-conversation'>
+                    <form action="">
+                        <textarea id="message" >
+                        
+                        </textarea>
+                        <br><br>
+                        <button id='submit'> 
+                            sent
+                        </button>
+                        </form>
+                          
+                </div>
+                </div>
+            </div>
+        
+           
+    </div>
+    </div>
+    </div>
+    `
 }

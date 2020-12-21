@@ -18,7 +18,6 @@ view.setActiveScreen = (componentName) => {
               //click from home to lesson basic
               const lesson_basic_button = document.getElementById("lesson-basic-button") ;
               const lesson_basic_page= document.getElementById("basic")
-              
               if( lesson_basic_button )
                 handleCreateLessonBasicPage = ( _event) =>{
                   view.setActiveScreen('lesson_basic_page')
@@ -27,27 +26,49 @@ view.setActiveScreen = (componentName) => {
                 lesson_basic_page.addEventListener('click', handleCreateLessonBasicPage);
               
 
-                //click from home to lasson
-                const lesson_advance_button = document.getElementById("lesson-advanced-button") ;
-                const lesson_advance_page= document.getElementById("lesson-advance")
-                
+                //click from home to lesson_advance
+                const lesson_advance_button = document.getElementById("lesson-advance-button") ;
+                const lesson_advance_page= document.getElementById("advance")
                 if( lesson_advance_button || lesson_advance_page )
                   handleCreateLessonAdvancePage = ( _event) =>{
                     view.setActiveScreen('lesson_advance_page')
                   }
                   lesson_advance_button.addEventListener('click', handleCreateLessonAdvancePage);
-                  // lesson_advance_page.addEventListener('click', handleCreateLessonAdvancePage);
+                   lesson_advance_page.addEventListener('click', handleCreateLessonAdvancePage);
 
                 //click from home to practice
               const practice_button = document.getElementById("practice-button") ;
               const practice_page= document.getElementById("practice")
-              
+
               if( practice_button || practice_page  )
                 handleCreatePracticePage = ( _event) =>{
                   view.setActiveScreen('practice_page')
                 }
                 practice_button.addEventListener('click', handleCreatePracticePage);
                 practice_page.addEventListener('click', handleCreatePracticePage);
+
+                //click from home to evaluate page
+              const evaluate_button = document.getElementById("evaluate-button") ;
+              const evaluate_page= document.getElementById("evaluate")
+
+              if( evaluate_button || evaluate_page  )
+                handleCreateEvaluatePage = ( _event) =>{
+                  view.setActiveScreen('evaluate_page')
+                }
+                evaluate_button.addEventListener('click', handleCreateEvaluatePage);
+                evaluate_page.addEventListener('click', handleCreateEvaluatePage);
+
+                 //click from home to report page
+                const report_button = document.getElementById("report-button") ;
+
+                if( report_button  )
+                  handleCreateReportPage = ( _event) =>{
+                    view.setActiveScreen('report_page')
+                  }
+                  report_button.addEventListener('click', handleCreateReportPage);
+ 
+
+
               break;
 
         case 'register':
@@ -107,83 +128,129 @@ view.setActiveScreen = (componentName) => {
             const createLessonBasicPage2_startLBPage = document.getElementById('lesson-basic-2');
             const createLessonBasicButtonPage2_startLBPage = document.getElementById('lesson-basic-button-2');
             if (createLessonBasicPage2_startLBPage || createLessonBasicButtonPage2_startLBPage ) {
-              handleCreateHomeClick = (_event) => {
+              handleCreateLessonBasicSubClick = (_event) => {
                 view.setActiveScreen('lesson_basic_page2');
               };
-              createLessonBasicPage2_startLBPage.addEventListener('click', handleCreateHomeClick);
-              createLessonBasicButtonPage2_startLBPage.addEventListener('click', handleCreateHomeClick);
+              createLessonBasicPage2_startLBPage.addEventListener('click', handleCreateLessonBasicSubClick);
+              createLessonBasicButtonPage2_startLBPage.addEventListener('click', handleCreateLessonBasicSubClick);
             }
 
             //click from lesson_basic_page to lesson_basic_page2
             const createLessonBasicPage3_startLBPage = document.getElementById('lesson-basic-3');
             const createLessonBasicButtonPage3_startLBPage = document.getElementById('lesson-basic-button-3');
             if (createLessonBasicPage3_startLBPage || createLessonBasicButtonPage3_startLBPage ) {
-              handleCreateHomeClick = (_event) => {
+              handleCreateLessonBasicSubClick = (_event) => {
                 view.setActiveScreen('lesson_basic_page3');
               };
-              createLessonBasicPage3_startLBPage.addEventListener('click', handleCreateHomeClick);
-              createLessonBasicButtonPage3_startLBPage.addEventListener('click', handleCreateHomeClick);
+              createLessonBasicPage3_startLBPage.addEventListener('click', handleCreateLessonBasicSubClick);
+              createLessonBasicButtonPage3_startLBPage.addEventListener('click', handleCreateLessonBasicSubClick);
             }  
-          break;
-       
-            case 'lesson_basic_page3':
-              if(app){
-                app.innerHTML=components.lesson_basic_page3
-              }
-              // click event form lesson_basic_3 to home page 
-              const createHomeButton = document.getElementById('home-page-button');
-              if (createHomeButton) {
-                handleCreateHomeClick = (_event) => {
-                  view.setActiveScreen('home');
-                };
-                createHomeButton.addEventListener('click', handleCreateHomeClick);
-              }
 
-            //click prev button from lesson_basic_3 to lesson_basic_2 
-            const button_prev_click_lbpage3 = document.getElementById('btn-prev');
-            if (button_prev_click_lbpage3) {
-              handleButtonPrevClick = (_event) => {
-                view.setActiveScreen('lesson_basic_page2');
+            //click from lesson_basic_page to lesson_advance_page
+            const createLessonAdvance_startLBPage = document.getElementById('lesson-advance-button');
+            if (createLessonAdvance_startLBPage ) {
+              handleCreateLessonAdvanceClick = (_event) => {
+                view.setActiveScreen('lesson_advance_page');
               };
-              button_prev_click_lbpage3.addEventListener('click', handleButtonPrevClick);
-            }
+              createLessonAdvance_startLBPage.addEventListener('click', handleCreateLessonAdvanceClick);
+            }  
 
-            //click next button from lesson_basic_3 to lesson_basic_first_sound_rule 
-            const button_next_click_lbpage3 = document.getElementById('btn-next');
-            if (button_next_click_lbpage3) {
-              handleButtonnextClick = (_event) => {
-                view.setActiveScreen('lesson_basic_first_sound_rule');
-              };
-              button_next_click_lbpage3.addEventListener('click', handleButtonnextClick);
-            }
-
-            //click from lesson_basic_page3 to lesson_basic_lesson_basic_first_sound_rule 
-            const createFirstSoundRulePage_startLBPage3 = document.getElementById('lesson-basic-3-first-sound');
-            if (createFirstSoundRulePage_startLBPage3) {
-              handleCreateFirstSoundRuleClick = (_event) => {
-                view.setActiveScreen('lesson_basic_first_sound_rule');
-              };
-              createFirstSoundRulePage_startLBPage3.addEventListener('click', handleCreateFirstSoundRuleClick);
-            }
-
-            //click from lesson_basic_page3 to lesson_basic_lesson_basic_first_sound_rule 
-            const createMainSoundRulePage_startLBPage3 = document.getElementById('lesson-basic-3-main-sound');
-            if (createMainSoundRulePage_startLBPage3) {
-              handleCreateMainSoundRuleClick = (_event) => {
-                view.setActiveScreen('lesson_basic_main_sound_rule');
-              };
-              createMainSoundRulePage_startLBPage3.addEventListener('click', handleCreateMainSoundRuleClick);
-            }
-
-            //click from lesson_basic_page3 to practice_page 
-            const createPracticePage_startLBPage3 = document.getElementById('practice-button');
-            if (createPracticePage_startLBPage3) {
+            //click from lesson_basic_page to practice_page
+            const createPracticePage_startLBPage = document.getElementById('practice-button');
+            if (createPracticePage_startLBPage ) {
               handleCreatePracticePageClick = (_event) => {
                 view.setActiveScreen('practice_page');
               };
-              createPracticePage_startLBPage3.addEventListener('click', handleCreatePracticePageClick);
-            }
+              createPracticePage_startLBPage.addEventListener('click', handleCreatePracticePageClick);
+            }              
+
+            //click from lesson_basic_page to evaluate_page
+            const createEvaluatePage_startLBPage = document.getElementById('evaluate-button');
+            if (createEvaluatePage_startLBPage ) {
+              handleCreateEvaluatePageClick = (_event) => {
+                view.setActiveScreen('evaluate_page');
+              };
+              createEvaluatePage_startLBPage.addEventListener('click', handleCreateEvaluatePageClick);
+            }  
+
+            //click from lesson_basic_page to report_page
+            const createReportPage_startLBPage = document.getElementById('report-button');
+            if (createReportPage_startLBPage ) {
+              handleCreateReportPageClick = (_event) => {
+                view.setActiveScreen('report_page');
+              };
+              createReportPage_startLBPage.addEventListener('click', handleCreateReportPageClick);
+            }                 
           break;
+       
+        case 'lesson_basic_page3':
+          if(app){
+            app.innerHTML=components.lesson_basic_page3
+          }
+          // click event form lesson_basic_3 to home page 
+          const createHomeButton_startLBPage3 = document.getElementById('home-page-button');
+          if (createHomeButton_startLBPage3) {
+            handleCreateHomeClick = (_event) => {
+              view.setActiveScreen('home');
+            };
+            createHomeButton_startLBPage3.addEventListener('click', handleCreateHomeClick);
+          }
+
+          //click prev button from lesson_basic_3 to lesson_basic_2 
+          const button_prev_click_startLBPage3 = document.getElementById('btn-prev');
+          if (button_prev_click_startLBPage3) {
+            handleButtonPrevClick = (_event) => {
+              view.setActiveScreen('lesson_basic_page2');
+            };
+            button_prev_click_startLBPage3.addEventListener('click', handleButtonPrevClick);
+          }
+
+          //click next button from lesson_basic_3 to lesson_basic_first_sound_rule 
+          const button_next_click_startLBPage3 = document.getElementById('btn-next');
+          if (button_next_click_startLBPage3) {
+            handleButtonnextClick = (_event) => {
+              view.setActiveScreen('lesson_basic_first_sound_rule');
+            };
+            button_next_click_startLBPage3.addEventListener('click', handleButtonnextClick);
+          }
+
+          //click from lesson_basic_page3 to lesson_basic_lesson_basic_first_sound_rule 
+          const createFirstSoundRulePage_startLBPage3 = document.getElementById('lesson-basic-3-first-sound');
+          if (createFirstSoundRulePage_startLBPage3) {
+            handleCreateFirstSoundRuleClick = (_event) => {
+              view.setActiveScreen('lesson_basic_first_sound_rule');
+            };
+            createFirstSoundRulePage_startLBPage3.addEventListener('click', handleCreateFirstSoundRuleClick);
+          }
+
+          //click from lesson_basic_page3 to lesson_basic_lesson_basic_main_sound_rule 
+          const createMainSoundRulePage_startLBPage3 = document.getElementById('lesson-basic-3-main-sound');
+          if (createMainSoundRulePage_startLBPage3) {
+            handleCreateMainSoundRuleClick = (_event) => {
+              view.setActiveScreen('lesson_basic_main_sound_rule');
+            };
+            createMainSoundRulePage_startLBPage3.addEventListener('click', handleCreateMainSoundRuleClick);
+          }
+
+          //click from lesson_basic_page3 to practice_page 
+          const createPracticePage_startLBPage3 = document.getElementById('practice-button');
+          if (createPracticePage_startLBPage3) {
+            handleCreatePracticePageClick = (_event) => {
+              view.setActiveScreen('practice_page');
+            };
+            createPracticePage_startLBPage3.addEventListener('click', handleCreatePracticePageClick);
+          }
+
+          //click from lesson_basic_page3 to evaluate_page 
+          const createEvaluatePage_startLBPage3 = document.getElementById('evaluate-button');
+          if (createEvaluatePage_startLBPage3) {
+            handleCreateEvaluatePageClick = (_event) => {
+              view.setActiveScreen('evaluate_page');
+            };
+            createEvaluatePage_startLBPage3.addEventListener('click', handleCreateEvaluatePageClick);
+          }
+
+        break;
 
           // lesson_basic_first_sound_rule
           case 'lesson_basic_first_sound_rule':
@@ -339,8 +406,20 @@ view.setActiveScreen = (componentName) => {
               };
               createHomeButtonStart_practice_page.addEventListener('click', handleCreateHomeClick);
             }
+            break ;
 
+          case 'evaluate_page':
+            // show practice_page
+            if(app){
+              app.innerHTML=components.evaluate_page
+            }
+            break;
 
+            case 'report_page':
+              // show report_page
+              if(app){
+                app.innerHTML=components.report_page
+              }
       }
 
        

@@ -3,7 +3,7 @@
     height: 100%;
     width: 25%;
     background-color: #96b97d;
-    position: absolute;
+    position: fixed;
 }
 
 .navigationMenu {
@@ -69,9 +69,7 @@
 
 .s-sub-item:hover{text-decoration: underline;}
 
-.container{
-    height: 87%;
-}
+
 
 /* bàn phím steno ảo css */
 
@@ -127,14 +125,6 @@
 
 }
 
-
-.about-us{
-    background-color: #6eff1a;
-    height: 12%;
-    margin-left:26%;
-    margin-top: 8px;
-
-}
 .sorting_asc{
     margin-left: 10px;
 }
@@ -143,6 +133,7 @@
     border: 2px solid #ffffff;
     height: 100%;
     padding-left: 10px;
+    margin-bottom: 20px;
 }
 
 .main-contain{
@@ -160,7 +151,6 @@
     font-size: 16px;
     border: 1px solid rgb(231, 231, 231);
     height: 75%;
-    overflow-y: scroll;
 }
 
 .image{

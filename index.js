@@ -1,5 +1,5 @@
   
 window.onload = () => {
 
-    view.setActiveScreen("practice_page");
+    view.setActiveScreen("lesson_basic_page");
   };

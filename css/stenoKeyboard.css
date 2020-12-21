@@ -126,18 +126,18 @@
 	margin-right: 1.875%;
 }
 
-#stenoKeyR-, #stenoKeyH-1 {
+#stenoKeyR-, #stenoKeyH- {
 	/* Box */
 	margin-left: 1.875%;
 	margin-right: 1.875%;
 }
 
-#stenoKeyN-1, #stenoKeyN-2 {
+#stenoKeyN-1-, #stenoKeyN-2- {
 	/* Box */
 	margin-left: 1.875%;
 }
 
-#stenoKeyH-2, #stenoKeyS-2 {
+#stenoKey-H, #stenoKey-S {
 	/* Box */
 	margin-right: 0;
 }
